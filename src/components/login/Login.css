@@ -1,0 +1,141 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  @media (max-height: 500px) {
+    .login-container {
+      align-items: flex-start;
+      padding-top: 40px;
+      overflow: auto;
+    }
+  }
+
+  .login-card {
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+
+  .logo {
+    width: 170px;
+    
+  }
+
+  
+  .login-right {
+    flex: 1;
+    padding: 15px 30px;
+    box-sizing: border-box;
+  }
+  
+  .login-right h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .login-right p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444;
+    text-align: start;
+  }
+  
+  form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+
+  input:focus{
+    outline: none;
+    border: 2px solid #ffde59;
+  }
+  
+  .btn-primary {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #ffde59;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .btn-primary:hover {
+    font-weight: bold;
+  }
+  
+  .social-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btn-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+   border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .btn-social:hover{
+    background: #ffde59;
+    font-weight: bold;
+  }
+  
+  .btn-social img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  
+  .register-link {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .register-link a {
+    color: #4f46e5;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }

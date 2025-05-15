@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 import "./Login.css"
 import logo from '../../img/pidoo-logo.png';
+import { Link } from 'react-router-dom';
+
 
 function Login() {
 
@@ -64,7 +66,7 @@ function Login() {
                     </div>
 
                     <p className="register-link">
-                        ¿No tienes una cuenta? <a href="#">Regístrate aquí</a>
+                        ¿No tienes una cuenta? <Link to={'/registro'}>Regístrate aquí</Link>
                     </p>
                 </div>
             </div>
